@@ -1,0 +1,219 @@
+
+.bg-img {
+  /* The image used */
+  background-image: url("../img/hero1.jpg");
+
+  height: 680px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.parallax {
+  margin: 0;
+  padding: 0;
+  /* The image used */
+  background-image: url("../img/hero2.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.parallax-2 {
+  margin: 0;
+  padding: 0;
+  /* The image used */
+  background-color: #000524;
+
+  /* Set a specific height */
+  height: 657px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.parallax-3 {
+  margin: 0;
+  padding: 0;
+  /* The image used */
+  background-image: url("../img/parallax-3.jpg");
+
+  /* Set a specific height */
+  height: 657px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.parallax-4 {
+  margin: 0;
+  padding: 0;
+  /* The image used */
+  background-color: #191919;
+
+  /* Set a specific height */
+  height: 657px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.card-container {
+  display: flex;
+}
+
+.card-style {
+  width: 400px;
+  margin: 20px
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 100px 100px  20px auto 20px 100px 100px;
+  grid-template-rows: 1fr 200px 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-hero {
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+}
+
+.title-hero h1 {
+  margin-top: 160px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.title-hero p {
+  max-width: 900px;
+  color: white;
+  font-size: 25px;
+}
+
+.buttons {
+  display: grid;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-down {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-container a {
+  margin: 20px;
+}
+
+.button-container {
+  display: grid;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.button-down img {
+  height: 40px;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.about {
+  margin-top: 100px;
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.about,.contact h1, p {
+  color: white;
+
+}
+
+.contact {
+  margin-top: 60px;
+  display: grid;
+  grid-column-start: 2;
+}
+
+.img-profile {
+  margin-top: 100px;
+}
+
+.title-portafolio {
+  background-color: #333333;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-portafolio h1 {
+  color: white;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 100px auto;
+}
+
+.title-contact {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}  
+
+.place {
+  color: #e0e3e3;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.place-img {
+  height: 40px;
+  width: 40px;
+}
