@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title><%= title %></title>
+  <%- include ('partials/head.html') %>
+</head>
+
+<body>
+    <%- include ('partials/navigation.html') %>
+      <div class="container bg-info mt-4 text-black">
+            <div class="row m-5">
+              <h3>Here is where you should write your message to readers to have them get in contact with you.</h3>
+            </div>
+            <div class="col-sm m-4">
+              <img class="place-img" src="../img/email.png" alt="">
+            </div>
+            <div class="form-group">
+              <h3>Name</h3>
+              <input class="form-control" placeholder="Name" type="text">
+              <h3>Email</h3>
+              <input class="form-control" placeholder="email@email.com" type="text">
+              <h3>Subject</h3>
+              <input class="form-control" placeholder="Subject" type="text">
+              <h3>Message</h3>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <a href="/"><button class="btn btn-danger mt-4">Submit</button></a>
+            <div class="col-sm text-white m-5 p-4">
+              <h1>Contact Details</h1>
+              <p>
+                Costa Rica <br>
+                Escazu <br>
+                (506) 6172-7356 <br>
+                andrewjumpermc@gmail.com
+              </p>
+              <a href="https://drive.google.com/uc?id=1k_UjsPVZ2HSAEZ0udg9LAmcShdu_JD88&export=download"><button class="btn btn-danger">Download my Resume</button></a>
+            </div>
+      </div>
+    <%- include ('partials/footer.html')%>
+</body>
+
+</html>

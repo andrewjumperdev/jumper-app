@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title><%= title %></title>
+  <%- include ('partials/head.html') %>
+  <style>
+
+    .hero-image {
+      background-image: url("https://images.pexels.com/photos/234527/pexels-photo-234527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+      height: 600px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+    </style>
+</head>
+<body>
+    <%- include ('partials/navigation.html') %>
+     <!--Hero-->
+     <div class="hero-image">
+        <div class="container ">
+            <hero class="text-white hero-text">
+              <h1 class="animated bounceInLeft">Hi, I'm <strong>Andrew Alfaro</strong></h1>
+              <p class="animated bounceInLeft" >I am a web development engineer and I use JavaScript and BootStrap and others frameworks to develop pages.
+                  This project is my resume.</p>
+                <div class="container mt-4 animated bounceInLeft">
+                  <a href="https://github.com/Jumperenterprise" target="_blanc"><button class="btn btn-danger">Project <i class="fas fa-project-diagram "></i></button></a>
+                  <a href="https://github.com/Jumperenterprise" target="_blanc"><button class="btn btn-secondary">Github  <i class="fab fa-github-alt"></i></button></a>
+                </div>
+            </hero>
+        </div>
+     </div>
+    <%- include ('partials/footer.html')%>
+</body>
+
+</html>
